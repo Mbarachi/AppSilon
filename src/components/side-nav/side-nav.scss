@@ -88,23 +88,22 @@
 }
 
 // Media Queries
-
 @media screen and (max-width: 1024px) {
   .side-nav-mobile {
     display: none;
     padding-top: 45px;
-    box-shadow:0 0 0 10000px rgba(0,0,0,.50);
+    box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5);
   }
-  .close-button{
+  .close-button {
     display: block;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  // .side-nav{
-  //   display: block !important;
-  // }
-  .close-button{
+  .side-nav-mobile {
+    display: block !important;
+  }
+  .close-button {
     display: none;
   }
 }

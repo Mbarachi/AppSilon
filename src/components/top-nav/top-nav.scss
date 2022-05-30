@@ -9,6 +9,7 @@
   border-radius: 0px 20px 0px 0px;
   z-index: 1;
   display: flex;
+  overflow: hidden;
   align-items: center;
   margin-left: 306px;
 }
@@ -54,19 +55,8 @@
 @media screen and (max-width: 1024px) {
   .top-nav {
     margin-left: 0;
-    // width: 100%;
   }
   #hamburger {
     display: block;
   }
 }
-
-// /* Medium devices (landscape tablets, 768px and up) */
-// @media only screen and (min-width: 768px) {
-//   .top-nav {
-//     margin-left: 0;
-//   }
-//   #hamburger {
-//     display: block;
-//   }
-// }

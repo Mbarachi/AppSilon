@@ -19,14 +19,6 @@ const SideNavList = () => {
     history: false,
   };
   const [icons, setIcons] = useState(defaultIcons);
-
-  const switchMenu = (item) => {
-    const newIcons = icons;
-    newIcons[item] = !icons[item]
-    setIcons(newIcons);
-    console.log(icons)
-  };
-
   return (
     <div>
       <MenuItem
