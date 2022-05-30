@@ -3,8 +3,9 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 20px;
-  background-color:  #f8f9ff;
-  background-image: url("../../../public/images/wave.png"), url("../../../public/images/illustration.png");
+  background-color: #f8f9ff;
+  background-image: url("../../../public/images/wave.png"),
+    url("../../../public/images/illustration.png");
   background-size: contain;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   background-repeat: no-repeat;
@@ -44,10 +45,10 @@
 }
 
 @media screen and (max-width: 768px) {
-  .hero-section{
+  .hero-section {
     width: 100%;
     background-position: center;
-    .hero-text{
+    .hero-text {
       margin: 0;
       display: flex;
       margin: 0 auto;
@@ -57,7 +58,6 @@
         margin-top: 20px;
         flex: 1;
       }
-
       .sub-text {
         font-size: 13px;
         flex-direction: column;
@@ -67,6 +67,42 @@
       }
       .coupon-code {
         margin: -5px 0px;
+      }
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+// @media (min-width: 768px) {
+//   .hero-section {
+//     width: 100%;
+//     background-position: center;
+//     .hero-text {
+//       margin-right: 25px;
+//       h5 {
+//         font-size: 20px;
+//         flex: 0;
+//       }
+//       .sub-text {
+//         font-size: 18px;
+//       }
+//     }
+//   }
+// }
+
+@media screen and (width: 768px) and (height: 1024px){
+  .hero-section {
+    width: 100%;
+    background-position: center;
+    .hero-text {
+      margin-right: 25px;
+      h5 {
+        font-size: 20px;
+      }
+      .sub-text {
+        font-size: 18px;
+        flex-direction:unset;
+        justify-content: space-evenly;
       }
     }
   }

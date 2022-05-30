@@ -24,7 +24,7 @@ const DisbursementCard = () => {
               </span>
             </div>
             <ProgressBar
-              completed={40}
+              completed={disbursement.policyProgress}
               height={"10px"}
               isLabelVisible={false}
               bgColor={"linear-gradient(90deg, #33D69F 0%, #50EDB8 111.47%)"}
@@ -41,7 +41,7 @@ const DisbursementCard = () => {
               </span>
             </div>
             <ProgressBar
-              completed={70}
+              completed={disbursement.claimProgress}
               height={"10px"}
               isLabelVisible={false}
               bgColor={"linear-gradient(90deg, #713BDB 0%, #A886E9 111.47%)"}

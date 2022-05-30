@@ -1,6 +1,6 @@
 .disbursement-container {
   display: flex;
-  flex-direction: row;
+  gap:0.5rem
 }
 
 .disbursement-card {
@@ -8,8 +8,6 @@
   background: #ffffff;
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.06);
   padding: 25px;
-  flex: 1 1 auto;
-  margin:  0px 10px 0px 0px;
   span {
     font-weight: 400;
     font-size: 40px;
@@ -59,3 +57,4 @@
     margin:0px 0px 15px 0px;
   }
 }
+

@@ -7,11 +7,11 @@ import './side-nav.scss'
 
 const SideNav = () => {
   const hideSideMenu = () => {
-    let ref = document.getElementsByClassName("side-nav")
-    ref[0].style.visibility = "hidden"
+    let ref = document.getElementsByClassName("side-nav-mobile")
+    ref[0].style.display = "none"
   }
   return (
-    <div className='side-nav'>
+    <div className='side-nav side-nav-mobile'>
       <div className='company-name'>
         <img src="/images/logo.png" alt="" width='25px' />
         <b>Insurance Portal</b>

@@ -6,7 +6,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 const TopNav = () => {
   const showSideMenu = () => {
     let ref = document.getElementsByClassName("side-nav")
-    ref[0].style.visibility = "visible"
+    ref[0].style.display = "block"
   }
   return (
     <div className='top-nav'>
