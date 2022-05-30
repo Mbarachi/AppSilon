@@ -1,0 +1,61 @@
+.disbursement-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.disbursement-card {
+  width: 33.3%;
+  background: #ffffff;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.06);
+  padding: 25px;
+  flex: 1 1 auto;
+  margin:  0px 10px 0px 0px;
+  span {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #42474a;
+  }
+  p {
+    color: #42474a;
+  }
+}
+
+#sup {
+  position: relative;
+  bottom: 1ex;
+  font-size: 35px !important;
+  color: #713bdb !important;
+}
+
+#min-sup {
+  position: relative;
+  bottom: 1ex;
+  font-size: 10px !important;
+}
+
+.flex-details {
+  display: flex;
+  justify-content: space-between;
+  span {
+    font-size: 14px;
+    color: #42474a;
+  }
+}
+.progress-bar {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .disbursement-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .disbursement-card{
+    width: 100%;
+    box-sizing: border-box;
+    margin:0px 0px 15px 0px;
+  }
+}

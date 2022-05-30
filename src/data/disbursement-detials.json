@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "totalvalue": 1000,
+    "policyValue": 400,
+    "claimValue": 800
+  },
+  {
+    "id": 21,
+    "totalvalue": 2500,
+    "policyValue": 1100,
+    "claimValue": 1400
+  },
+  {
+    "id": 3,
+    "totalvalue": 2500,
+    "policyValue": 1100,
+    "claimValue": 1400
+  }
+]

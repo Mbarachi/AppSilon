@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* min-height: calc(100% - 150px); */
+  position: relative;
+  font-family: "Segoe UI";
+  background-color: #F4F5F9;
+  max-width: 100%;
+  overflow-x: hidden;
+}

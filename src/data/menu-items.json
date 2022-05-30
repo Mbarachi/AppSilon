@@ -1,0 +1,34 @@
+
+[
+    {
+        "id":1,
+        "title" : "Overview",
+        "icon":"overview"
+    },
+    {
+        "id":2,
+        "title" : "Policy",
+        "icon":"boxing-glove"
+    },
+    {
+        "id":3,
+        "title" : "Reports",
+        "icon":"boxing-glove"
+    },
+    {
+        "id":4,
+        "title" : "Company",
+        "icon":"boxing-glove"
+    },
+    {
+        "id":5,
+        "title" : "User Account",
+        "icon":"boxing-glove"
+    },
+    {
+        "id":5,
+        "title" : "History",
+        "icon":"boxing-glove"
+    }
+]
+   
