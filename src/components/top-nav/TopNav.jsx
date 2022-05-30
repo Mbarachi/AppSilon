@@ -14,9 +14,9 @@ const TopNav = () => {
         <FontAwesomeIcon icon={faBars} size="lg" onClick={showSideMenu}/>
       </div>
       <div className="menu">
-        <a href="#">Overview</a>
-        <a href="#">Policy</a>
-        <a href="#" id='active-item'>Reports</a>
+        <a>Overview</a>
+        <a>Policy</a>
+        <a id='active-item'>Reports</a>
       </div>
     </div>
   )
